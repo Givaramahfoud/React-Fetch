@@ -5,3 +5,4 @@ export default function Errors(props) {
         <h2>Oh my! {props.message}</h2>
     )
 }
+ 

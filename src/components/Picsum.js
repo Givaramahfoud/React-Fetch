@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-
 import Image from './Image'
 import Errors from './Errors';
 
@@ -19,7 +18,7 @@ export default class Picsum extends Component {
             "COMPONENT DID MOUNT"
         )
         this.fetchAsync()
-    }
+    } 
 
     componentDidUpdate() {
         console.log(

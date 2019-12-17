@@ -21,7 +21,7 @@ export default function Image(props) {
             />
             <p>
                 <a
-                    target="_blank"
+                    target="_blank" 
                     href={author_url}
                     rel="noopener noreferrer"
                 >{author}
